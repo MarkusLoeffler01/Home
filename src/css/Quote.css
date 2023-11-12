@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CubanoCustom";
+    src: url("../assets/fonts/Cubano/Cubano/Cubano.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.font-face-cb {
+    font-family: "CubanoCustom";
+  }
