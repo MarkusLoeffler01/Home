@@ -9,7 +9,6 @@ import NotFound from './Pages/NotFound.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
     <BrowserRouter>
       <div>
         <Routes>
@@ -18,5 +17,4 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </Routes>
       </div>
     </BrowserRouter>
-  </React.StrictMode>
 )

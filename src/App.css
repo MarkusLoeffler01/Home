@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+.flex-container {
+  display: flex; /* Aktiviert Flexbox */
+  justify-content: center; /* Zentriert die Items horizontal */
+  align-items: center; /* Zentriert die Items vertikal */
+  height: 200px; /* Höhe des Flex-Containers */
+  background-color: lightgrey; /* Hintergrundfarbe des Containers */
+}
+
+.flex-item {
+  width: 100px; /* Breite jedes Flex-Items */
+  margin: 10px; /* Abstand zwischen den Flex-Items */
+  text-align: center; /* Text innerhalb der Flex-Items zentrieren */
+  line-height: 100px; /* Vertikale Ausrichtung des Textes innerhalb der Items */
+  background-color: teal; /* Hintergrundfarbe der Flex-Items */
+  color: white; /* Textfarbe der Flex-Items */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
